@@ -146,16 +146,16 @@ public class View {
             winnerLine.setStrokeWidth(3);
             winnerLine.setStroke(Color.WHITESMOKE);
         } else if ((startTileRow == 0 && startTileCol == 0 && endTileRow == 2 && endTileCol == 2)) { // slash right
-            winnerLine.setStartX(tiles[startTileRow][startTileCol].getX() + 40);
-            winnerLine.setStartY(tiles[startTileRow][startTileCol].getY() + 30);
-            winnerLine.setEndX(tiles[endTileRow][endTileCol].getX() + 160);
+            winnerLine.setStartX(tiles[startTileRow][startTileCol].getX() + 27);
+            winnerLine.setStartY(tiles[startTileRow][startTileCol].getY() + 27);
+            winnerLine.setEndX(tiles[endTileRow][endTileCol].getX() + 170);
             winnerLine.setEndY(tiles[endTileRow][endTileCol].getY() + 170);
             winnerLine.setStrokeWidth(3);
             winnerLine.setStroke(Color.WHITESMOKE);
         } else { // slash left
-            winnerLine.setStartX(tiles[startTileRow][startTileCol].getX() + 160);
+            winnerLine.setStartX(tiles[startTileRow][startTileCol].getX() + 170);
             winnerLine.setStartY(tiles[startTileRow][startTileCol].getY() + 30);
-            winnerLine.setEndX(tiles[endTileRow][endTileCol].getX() + 40);
+            winnerLine.setEndX(tiles[endTileRow][endTileCol].getX() + 30);
             winnerLine.setEndY(tiles[endTileRow][endTileCol].getY() + 170);
             winnerLine.setStrokeWidth(3);
             winnerLine.setStroke(Color.WHITESMOKE);
