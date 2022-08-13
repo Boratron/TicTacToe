@@ -58,6 +58,7 @@ public class View {
 
         choiceLabel.setLayoutX(200);
         choiceLabel.setLayoutY(623);
+        choiceLabel.setTextFill(Color.WHITESMOKE);
 
         this.markChoices.setPrefWidth(90);
         this.markChoices.setLayoutX(305);
@@ -80,6 +81,7 @@ public class View {
         this.root.getChildren().add(resetBtn);
 
         this.scene = new Scene(root, 600, 700);
+        this.scene.setFill(Color.BLACK);
     }
 
     public void drawMark(TileModel tileModel) {
